@@ -140,7 +140,7 @@ module.exports = function(grunt) {
 							files[name] = pkg;
 						}
 						else {
-							grunt.log.error('Can’t detect any .' + destination.path + ' on main files for "' +
+							grunt.log.error('Can’t detect any .' + destination.assetType + ' on main files for "' +
 								name + '" component. ' +
 								'You should explicitly define it via bower_concat’s mainFiles option. ' +
 								'See Readme for details.'
